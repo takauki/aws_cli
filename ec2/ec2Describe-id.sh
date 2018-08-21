@@ -2,7 +2,7 @@
 
 ## 出力結果の絞り込み
 fName="tag:Name"
-fVale="13*"
+fVale="test*"
 ## 表示項目の絞り込み
 qParam="Reservations[].Instances[].InstanceId[]"
 
