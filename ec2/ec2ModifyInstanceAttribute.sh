@@ -1,7 +1,7 @@
 #!/bin/bash
 
-id=$1
+instanceId=$1
 
 aws ec2 modify-instance-attribute \
-    --instance-id $id \
+    --instance-id $instanceId \
     --no-disable-api-termination
